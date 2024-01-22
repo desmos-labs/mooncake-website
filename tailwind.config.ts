@@ -21,6 +21,11 @@ const config: Config = {
         "logo-mobile": "28px",
         "logo-desktop": "40px",
       },
+      backgroundImage: {
+        "home-hero-desktop": "url('/heroDesktop.png')",
+        "home-hero-tablet": "url('/heroTablet.png')",
+        "home-hero-mobile": "url('/heroMobile.png')",
+      },
     },
   },
   plugins: [],
