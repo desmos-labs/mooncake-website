@@ -10,3 +10,10 @@
         color-scheme: light;
     }
 }
+
+.bondscape-text-gradient {
+    background: linear-gradient(98deg, #FE8127 6.16%, #FEB027 78.13%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
