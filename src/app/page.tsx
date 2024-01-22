@@ -14,7 +14,7 @@ export default function Home() {
         <header>
           <Header />
         </header>
-        <main>
+        <main className="flex h-full items-center justify-center">
           <HomePageContent />
         </main>
       </div>
