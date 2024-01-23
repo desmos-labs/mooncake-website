@@ -1,0 +1,12 @@
+version: '3.6'
+services:
+
+  ## Mooncake website
+  apis:
+    build: .
+    image: desmoslabs/mooncake-website
+    container_name: "mooncake-website"
+    user: "${UID}:${GID}"
+    ports:
+      - "3000:3000"
+    restart: always
