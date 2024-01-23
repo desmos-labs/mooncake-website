@@ -328,7 +328,7 @@ export default function Terms() {
             If you come across any Mooncake user who acts repeatedly in breach
             of these Terms or applicable community policies or guidelines,
             please report to us by emailing{" "}
-            <a href="mailto:support@mooncake.app">support@mooncake.app</a>.
+            <a href="mailto:support@desmos.network">support@desmos.network</a>.
           </p>
           <p>
             <strong>
