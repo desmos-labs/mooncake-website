@@ -9,8 +9,8 @@ export default function Terms() {
   return (
     <MainLayout background={false}>
       <div className="w-full">
-        <div className="flex flex-col px-5 py-5 text-[16px] leading-loose text-neutral-900 text-neutral-900 md:px-10 md:py-10 lg:px-[80px] xl:px-[240px]">
-          <h1 className="pb-[32px] text-2xl font-semibold leading-9 text-neutral-900 md:text-4xl">
+        <div className="flex flex-col px-5 py-5 text-[16px] leading-loose text-neutral-900 md:px-10 md:py-10 lg:px-[80px] xl:px-[240px]">
+          <h1 className="pb-[32px] text-3xl font-semibold leading-9 text-neutral-900">
             Terms of Service
           </h1>
           <p className="pb-4">
@@ -44,7 +44,7 @@ export default function Terms() {
           {/* Our Platform */}
           <h2
             id="platform"
-            className="py-[32px] text-sm font-semibold leading-9 md:text-xl"
+            className="py-[32px] text-2xl font-semibold leading-9"
           >
             Our Platform
           </h2>
@@ -94,7 +94,7 @@ export default function Terms() {
           {/* Intellectual Property Rights */}
           <h2
             id="property-rights"
-            className="py-[32px] text-sm font-semibold leading-9 md:text-xl"
+            className="py-[32px] text-2xl font-semibold leading-9"
           >
             Intellectual Property Rights
           </h2>
@@ -171,7 +171,7 @@ export default function Terms() {
           {/* Disclaimers */}
           <h2
             id="disclaimers"
-            className="py-[32px] text-sm font-semibold leading-9 md:text-xl"
+            className="py-[32px] text-2xl font-semibold leading-9"
           >
             Disclaimers
           </h2>
@@ -308,7 +308,7 @@ export default function Terms() {
           {/* Content moderation */}
           <h2
             id="content-moderation"
-            className="py-[32px] text-sm font-semibold leading-9 md:text-xl"
+            className="py-[32px] text-2xl font-semibold leading-9"
           >
             Content Moderation
           </h2>
@@ -341,7 +341,7 @@ export default function Terms() {
           {/* Conditions Precedent */}
           <h2
             id="conditions-precedent"
-            className="py-[32px] text-sm font-semibold leading-9 md:text-xl"
+            className="py-[32px] text-2xl font-semibold leading-9"
           >
             Changes to the Terms
           </h2>
@@ -379,7 +379,7 @@ export default function Terms() {
           {/* Representations and Warranties */}
           <h2
             id="representations-and-warranties"
-            className="py-[32px] text-sm font-semibold leading-9 md:text-xl"
+            className="py-[32px] text-2xl font-semibold leading-9"
           >
             Representations and Warranties
           </h2>
@@ -446,7 +446,7 @@ export default function Terms() {
           {/* Taxes and other obligations */}
           <h2
             id="taxes-and-obligations"
-            className="py-[32px] text-sm font-semibold leading-9 md:text-xl"
+            className="py-[32px] text-2xl font-semibold leading-9"
           >
             Taxes and other obligations
           </h2>
@@ -470,7 +470,7 @@ export default function Terms() {
           {/* Beta services */}
           <h2
             id="beta-services"
-            className="py-[32px] text-sm font-semibold leading-9 md:text-xl"
+            className="py-[32px] text-2xl font-semibold leading-9"
           >
             Beta services
           </h2>
@@ -491,7 +491,7 @@ export default function Terms() {
           {/* Termination */}
           <h2
             id="termination"
-            className="py-[32px] text-sm font-semibold leading-9 md:text-xl"
+            className="py-[32px] text-2xl font-semibold leading-9"
           >
             Termination
           </h2>
@@ -537,7 +537,7 @@ export default function Terms() {
           {/* Indemnity */}
           <h2
             id="indemnity"
-            className="py-[32px] text-sm font-semibold leading-9 md:text-xl"
+            className="py-[32px] text-2xl font-semibold leading-9"
           >
             Indemnity
           </h2>
@@ -563,7 +563,7 @@ export default function Terms() {
           {/* Force majeure */}
           <h2
             id="force-majeure"
-            className="py-[32px] text-sm font-semibold leading-9 md:text-xl"
+            className="py-[32px] text-2xl font-semibold leading-9"
           >
             Force majeure
           </h2>
@@ -588,7 +588,7 @@ export default function Terms() {
           {/* General Provisions */}
           <h2
             id="general-povisions"
-            className="py-[32px] text-sm font-semibold leading-9 md:text-xl"
+            className="py-[32px] text-2xl font-semibold leading-9"
           >
             General Provisions
           </h2>
@@ -633,7 +633,7 @@ export default function Terms() {
           {/* Governing Law */}
           <h2
             id="governing-law"
-            className="py-[32px] text-sm font-semibold leading-9 md:text-xl"
+            className="py-[32px] text-2xl font-semibold leading-9"
           >
             Governing Law
           </h2>
@@ -648,7 +648,7 @@ export default function Terms() {
           {/* Dispute Resolution */}
           <h2
             id="changes"
-            className="py-[32px] text-sm font-semibold leading-9 md:text-xl"
+            className="py-[32px] text-2xl font-semibold leading-9"
           >
             Dispute Resolution
           </h2>
@@ -671,7 +671,7 @@ export default function Terms() {
           {/* Contact Us */}
           <h2
             id="contacts"
-            className="py-[32px] text-sm font-semibold leading-9 md:text-xl"
+            className="py-[32px] text-2xl font-semibold leading-9"
           >
             Contact Us
           </h2>
