@@ -27,4 +27,4 @@ docker build -t desmoslabs/mooncake-website:latest .
 docker run --name bondscape-website -p 5000:3000 desmoslabs/mooncake-website:latest 
 ```
 
-After running this command, you will be able to reach the website at http://localhost:3000.
+After running this command, you will be able to reach the website at http://localhost:5000.
