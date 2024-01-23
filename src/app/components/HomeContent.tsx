@@ -1,13 +1,14 @@
 "use client";
 import Lottie from "lottie-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
-import phoneMockupAnimation from "../../../public/phoneMockupAnimation.json";
 import mainTextAnimation from "../../../public/mainTextAnimation.json";
+import phoneMockupAnimation from "../../../public/phoneMockupAnimation.json";
 
-const HomePageContent = () => {
+const HomeContent = () => {
   return (
-    <div className="flex flex-col items-center justify-center px-7 md:px-[60px] lg:flex-row">
+    <div className="flex flex-col items-center justify-center px-7 md:px-[60px] lg:h-screen lg:flex-row">
       <div className="hidden items-center justify-center lg:flex">
         <div className="flex flex-row items-center gap-[120px]">
           <div>
@@ -32,27 +33,41 @@ const HomePageContent = () => {
               </div>
             </div>
             <div className="mt-[56px] flex flex-row gap-4 md:gap-6">
-              <div className="relative h-[48px] w-[151.5px] md:h-[68px] md:w-[229px]">
+              <Link
+                className="relative h-[48px] w-[151.5px] md:h-[68px] md:w-[229px]"
+                href={""}
+              >
                 <Image
                   src={"/appStoreLogo.png"}
                   alt={"App Store Button"}
                   fill
+                  sizes={"20vw"}
                 />
-              </div>
-              <div className="relative h-[48px] w-[151.5px] md:h-[68px] md:w-[229px]">
+              </Link>
+              <Link
+                className="relative h-[48px] w-[151.5px] md:h-[68px] md:w-[229px]"
+                href={""}
+              >
                 <Image
                   src={"/googlePlayLogo.png"}
                   alt={"Google Play Button"}
                   fill
+                  sizes={"20vw"}
                 />
-              </div>
+              </Link>
             </div>
           </div>
           <Lottie animationData={phoneMockupAnimation} loop={true} />
         </div>
       </div>
       <div className="relative my-10 h-[335px] w-[320px] md:my-[60px] md:h-[526px] md:w-[500px] lg:hidden">
-        <Image src={"/phoneMockupDesktop.png"} alt={"Phone Mockup"} fill />
+        <Image
+          src={"/phoneMockupDesktop.png"}
+          alt={"Phone Mockup"}
+          fill
+          priority={true}
+          sizes={"50vw"}
+        />
       </div>
       <div>
         <div className="bondscape-text-gradient bg-clip-text text-left text-[32px] font-medium leading-[48px] text-transparent md:text-[56px] md:leading-[84px] lg:hidden">
@@ -85,14 +100,24 @@ const HomePageContent = () => {
       </div>
       <div className="mb-[100px] flex flex-row items-center justify-center gap-4 md:gap-6 lg:hidden">
         <div className="relative h-[48px] w-[151.5px] md:h-[68px] md:w-[229px]">
-          <Image src={"/appStoreLogo.png"} alt={"App Store Button"} fill />
+          <Image
+            src={"/appStoreLogo.png"}
+            alt={"App Store Button"}
+            fill
+            sizes={"10vw"}
+          />
         </div>
         <div className="relative h-[48px] w-[151.5px] md:h-[68px] md:w-[229px]">
-          <Image src={"/googlePlayLogo.png"} alt={"Google Play Button"} fill />
+          <Image
+            src={"/googlePlayLogo.png"}
+            alt={"Google Play Button"}
+            fill
+            sizes={"10vw"}
+          />
         </div>
       </div>
     </div>
   );
 };
 
-export default HomePageContent;
+export default HomeContent;
