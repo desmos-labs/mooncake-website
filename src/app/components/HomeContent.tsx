@@ -74,12 +74,12 @@ const HomeContent = () => {
           Engage, <br /> Empower, Endorse
         </div>
         <div className="md:hidden">
-          <div className="mb-4 mt-6 hidden text-base font-semibold leading-[24px] text-neutral-900 ">
+          <div className="mb-4 mt-6 text-base font-semibold leading-[24px] text-neutral-900 ">
             Mooncake offers a decentralised social <br /> networking experience
             where your <br /> profile, contents and connections are <br /> truly
             yours.
           </div>
-          <div className="mb-6 text-base font-normal leading-[24px] text-neutral-900">
+          <div className="mb-12 text-base font-normal leading-[24px] text-neutral-900">
             Experience a censorship resistance <br /> platform where your
             engagement can <br />
             turn into tangible rewards and your <br /> endorsement shapes
