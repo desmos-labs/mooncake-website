@@ -29,7 +29,7 @@ const DefaultSEO = {
     siteName: "Mooncake",
   },
   twitter: {
-    creator: "@mooncake",
+    creator: "@mooncakeapp",
     card: "summary_large_image",
     title: "Mooncake",
     description:
