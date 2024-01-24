@@ -13,7 +13,7 @@ const MainLayout = ({ background, children }: Props) => {
       <div
         className={`${background ? "bg-home-hero-mobile md:bg-home-hero-tablet lg:bg-home-hero-desktop " : ""}}  flex flex-grow flex-col  bg-cover bg-no-repeat`}
       >
-        <header>
+        <header className={"sticky top-0 z-10"}>
           <Header />
         </header>
         <main className="flex h-full items-center justify-center">
