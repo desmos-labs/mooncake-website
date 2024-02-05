@@ -35,24 +35,22 @@ const HomeContent = () => {
             <div className="mt-[56px] flex flex-row gap-4 md:gap-6">
               <Link
                 className="relative h-[48px] w-[151.5px] md:h-[68px] md:w-[229px]"
-                href={""}
+                href="https://testflight.apple.com/join/kJrjwmGr"
               >
                 <Image
-                  src={"/appStoreLogo.png"}
-                  alt={"App Store Button"}
+                  src={"/testflightBetaButton.png"}
+                  alt={"Download the beta on Testflight"}
                   fill
-                  sizes={"20vw"}
                 />
               </Link>
               <Link
                 className="relative h-[48px] w-[151.5px] md:h-[68px] md:w-[229px]"
-                href={""}
+                href="https://play.google.com/apps/testing/mobile.mooncake.app"
               >
                 <Image
-                  src={"/googlePlayLogo.png"}
-                  alt={"Google Play Button"}
+                  src={"/playStoreBetaButton.png"}
+                  alt={"Download the beta on Google Play Store"}
                   fill
-                  sizes={"20vw"}
                 />
               </Link>
             </div>
@@ -99,22 +97,26 @@ const HomeContent = () => {
         </div>
       </div>
       <div className="mb-[100px] flex flex-row items-center justify-center gap-4 md:gap-6 lg:hidden">
-        <div className="relative h-[48px] w-[151.5px] md:h-[68px] md:w-[229px]">
+        <Link
+          className="relative h-[48px] w-[151.5px] md:h-[68px] md:w-[229px]"
+          href="https://testflight.apple.com/join/kJrjwmGr"
+        >
           <Image
-            src={"/appStoreLogo.png"}
-            alt={"App Store Button"}
+            src={"/testflightBetaButton.png"}
+            alt={"Download the beta on Testflight"}
             fill
-            sizes={"10vw"}
           />
-        </div>
-        <div className="relative h-[48px] w-[151.5px] md:h-[68px] md:w-[229px]">
+        </Link>
+        <Link
+          className="relative h-[48px] w-[151.5px] md:h-[68px] md:w-[229px]"
+          href="https://play.google.com/apps/testing/mobile.mooncake.app"
+        >
           <Image
-            src={"/googlePlayLogo.png"}
-            alt={"Google Play Button"}
+            src={"/playStoreBetaButton.png"}
+            alt={"Download the beta on Google Play Store"}
             fill
-            sizes={"10vw"}
           />
-        </div>
+        </Link>
       </div>
     </div>
   );
