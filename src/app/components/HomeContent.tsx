@@ -34,21 +34,21 @@ const HomeContent = () => {
             </div>
             <div className="mt-[56px] flex flex-row gap-4 md:gap-6">
               <Link
-                className="relative h-[48px] w-[151.5px] md:h-[68px] md:w-[229px]"
+                className="relative h-[68px] w-[226px]"
                 href="https://testflight.apple.com/join/kJrjwmGr"
               >
                 <Image
-                  src={"/testflightBetaButton.png"}
+                  src={"/betaTestflight.svg"}
                   alt={"Download the beta on Testflight"}
                   fill
                 />
               </Link>
               <Link
-                className="relative h-[48px] w-[151.5px] md:h-[68px] md:w-[229px]"
+                className="relative h-[68px] w-[226px]"
                 href="https://play.google.com/apps/testing/mobile.mooncake.app"
               >
                 <Image
-                  src={"/playStoreBetaButton.png"}
+                  src={"/betaGooglePlay.svg"}
                   alt={"Download the beta on Google Play Store"}
                   fill
                 />
@@ -98,11 +98,11 @@ const HomeContent = () => {
       </div>
       <div className="mb-[100px] flex flex-row items-center justify-center gap-4 md:gap-6 lg:hidden">
         <Link
-          className="relative h-[48px] w-[151.5px] md:h-[68px] md:w-[229px]"
+          className="relative h-[46.6px] w-[150px] md:h-[68px] md:w-[226px]"
           href="https://testflight.apple.com/join/kJrjwmGr"
         >
           <Image
-            src={"/testflightBetaButton.png"}
+            src={"/betaTestflight.svg"}
             alt={"Download the beta on Testflight"}
             fill
           />
@@ -112,7 +112,7 @@ const HomeContent = () => {
           href="https://play.google.com/apps/testing/mobile.mooncake.app"
         >
           <Image
-            src={"/playStoreBetaButton.png"}
+            src={"/betaGooglePlay.svg"}
             alt={"Download the beta on Google Play Store"}
             fill
           />
