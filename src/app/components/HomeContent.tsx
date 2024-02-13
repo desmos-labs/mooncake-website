@@ -8,7 +8,7 @@ import phoneMockupAnimation from "../../../public/phoneMockupAnimation.json";
 
 const HomeContent = () => {
   return (
-    <div className="flex flex-col items-center justify-center px-7 md:px-[60px] lg:h-screen lg:flex-row">
+    <div className="flex flex-col items-center justify-center px-7 md:px-[60px] lg:flex-row">
       <div className="hidden items-center justify-center lg:flex">
         <div className="flex flex-row items-center gap-[120px]">
           <div>
