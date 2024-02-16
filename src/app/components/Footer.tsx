@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-neutral-100 px-5 py-4 md:px-10 md:py-6 lg:px-[80px] lg:py-8">
+    <div className="bg-transparent px-5 py-4 md:px-10 md:py-6 lg:px-[80px] lg:py-8">
       <div className="flex flex-1 flex-col lg:flex-row lg:items-center">
         <div className="pb-2 text-[14px] font-normal leading-none text-neutral-700 lg:pb-0 lg:pr-[40px]">
           Copyright © Desmos Labs {new Date().getFullYear()}

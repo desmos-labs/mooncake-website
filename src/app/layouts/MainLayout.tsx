@@ -16,13 +16,13 @@ const MainLayout = ({ background, children }: Props) => {
         <header className={"sticky top-0 z-10"}>
           <Header />
         </header>
-        <main className="flex h-full items-center justify-center">
+        <main className="flex h-full items-center justify-center py-12 md:py-48 xl:py-0">
           {children}
         </main>
+        <footer>
+          <Footer />
+        </footer>
       </div>
-      <footer>
-        <Footer />
-      </footer>
     </div>
   );
 };
