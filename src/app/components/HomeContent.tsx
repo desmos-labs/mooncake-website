@@ -116,11 +116,12 @@ const HomeContent = () => {
       </div>
       <div className="relative my-10 h-[335px] w-[320px] md:my-[60px] md:h-[526px] md:w-[500px] lg:hidden">
         <Image
-          src={"/phoneMockupDesktop.svg"}
+          src={"/phoneMockupDesktop.png"}
           alt={"Phone Mockup"}
           fill
           priority={true}
-          sizes={"50vw"}
+          quality={90}
+          sizes={"100vw"}
         />
       </div>
       <div>
