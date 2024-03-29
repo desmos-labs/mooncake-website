@@ -2,15 +2,12 @@
 import Lottie from "lottie-react";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
 import mainTextAnimation from "../../../public/mainTextAnimation.json";
 import phoneMockupAnimation from "../../../public/phoneMockupAnimation.json";
 import { motion, AnimatePresence } from "framer-motion";
 
 const HomeContent = () => {
-  const [isHoveringTF, setIsHoveringTF] = useState(false);
-  const [isHoveringGP, setIsHoveringGP] = useState(false);
-
   return (
     <div className="flex flex-col items-center justify-center px-7 md:px-[60px] lg:flex-row">
       <div className="hidden items-center justify-center lg:flex">
@@ -39,74 +36,42 @@ const HomeContent = () => {
             <div className="mt-[56px] flex flex-row gap-4 md:gap-6">
               <Link
                 className="relative h-[68px] w-[226px]"
-                href="https://testflight.apple.com/join/kJrjwmGr"
-                onMouseEnter={() => setIsHoveringTF(true)}
-                onMouseLeave={() => setIsHoveringTF(false)}
+                href="https://apps.apple.com/us/app/mooncake/id6474764558"
               >
                 <AnimatePresence initial={false} mode={"sync"}>
-                  {isHoveringTF ? (
-                    <motion.div
-                      key={"hover"}
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      exit={{ opacity: 0 }}
-                    >
-                      <Image
-                        src={"/betaTestflightHover.svg"}
-                        alt={"Download the beta on Testflight (Hover)"}
-                        fill
-                      />
-                    </motion.div>
-                  ) : (
-                    <motion.div
-                      key={"normal"}
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      exit={{ opacity: 0 }}
-                    >
-                      <Image
-                        src={"/betaTestflight.svg"}
-                        alt={"Download the beta on Testflight"}
-                        fill
-                      />
-                    </motion.div>
-                  )}
+                  <motion.div
+                    key={"normal"}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    className="relative h-[68px] w-[226px]"
+                  >
+                    <Image
+                      src={"/betaTestflight.svg"}
+                      alt={"Download the app on AppStore"}
+                      fill
+                    />
+                  </motion.div>
                 </AnimatePresence>
               </Link>
               <Link
                 className="relative h-[68px] w-[226px]"
-                href="https://play.google.com/apps/testing/mobile.mooncake.app"
-                onMouseEnter={() => setIsHoveringGP(true)}
-                onMouseLeave={() => setIsHoveringGP(false)}
+                href="https://play.google.com/store/apps/details?id=mobile.mooncake.app"
               >
                 <AnimatePresence initial={false}>
-                  {isHoveringGP ? (
-                    <motion.div
-                      key={"hover"}
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      exit={{ opacity: 0 }}
-                    >
-                      <Image
-                        src={"/betaGooglePlayHover.svg"}
-                        alt={"Download the beta on Testflight (Hover)"}
-                        fill
-                      />
-                    </motion.div>
-                  ) : (
-                    <motion.div
-                      key={"normal"}
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      exit={{ opacity: 0 }}
-                    >
-                      <Image
-                        src={"/betaGooglePlay.svg"}
-                        alt={"Download the beta on Testflight"}
-                        fill
-                      />
-                    </motion.div>
-                  )}
+                  <motion.div
+                    key={"normal"}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    className="relative h-[68px] w-[226px]"
+                  >
+                    <Image
+                      src={"/betaGooglePlay.svg"}
+                      alt={"Download the app on Google Play Store"}
+                      fill
+                    />
+                  </motion.div>
                 </AnimatePresence>
               </Link>
             </div>
@@ -156,21 +121,21 @@ const HomeContent = () => {
       <div className="mb-[100px] flex flex-row items-center justify-center gap-4 md:gap-6 lg:hidden">
         <Link
           className="relative h-[46.6px] w-[150px] md:h-[68px] md:w-[226px]"
-          href="https://testflight.apple.com/join/kJrjwmGr"
+          href="https://apps.apple.com/us/app/mooncake/id6474764558"
         >
           <Image
             src={"/betaTestflight.svg"}
-            alt={"Download the beta on Testflight"}
+            alt={"Download the app on Testflight"}
             fill
           />
         </Link>
         <Link
           className="relative h-[48px] w-[151.5px] md:h-[68px] md:w-[229px]"
-          href="https://play.google.com/apps/testing/mobile.mooncake.app"
+          href="https://play.google.com/store/apps/details?id=mobile.mooncake.app"
         >
           <Image
             src={"/betaGooglePlay.svg"}
-            alt={"Download the beta on Google Play Store"}
+            alt={"Download the app on Google Play Store"}
             fill
           />
         </Link>
